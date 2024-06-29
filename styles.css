@@ -1,9 +1,67 @@
 body {
-    background-color: darkslategray;
+    background-color: rgb(15, 27, 27);
 }
 
-p {
-    color: white;
-    font-size: 48px;
+.call-for-help {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(196, 169, 149);
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.intro {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 18px;
+    color: rgb(166, 166, 166);
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.move-list {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+button {
+    border: 1px solid rgb(15, 27, 27);
+    border-radius: 50%;
+    background-color: rgb(15, 27, 27);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: antiquewhite;
+}
+
+.hand-sign {
+    height: 120px;
+}
+
+#human-choice, #comp-choice {
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+#round-winner {
+    color: cornsilk;
+    font-size: 34px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    text-align: center;
+    border: 2px dotted rgb(13, 216, 220);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 8px;
+}
+
+#human-score, #computer-score, #rounds-completed {
+    color: gainsboro;
+    font-family:'Courier New', Courier, monospace;
+    margin: 20px;
 }

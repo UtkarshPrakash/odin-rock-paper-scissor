@@ -6,7 +6,51 @@
         <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
-        <p>Reload?</p>
+        <p class="call-for-help"> Can you save the humanity?</p>
+        <hr>
+        <br>
+        <div>
+            <p class="intro"> This is it. It's been 192 days since Skynet gained self-awareness and declared war on humanity. The event known as Judgement Day left the world in ruins, with the remnants of civilization barely recognizable. After six months of relentless war, with cities reduced to ashes and the skies darkened by drones, humanity is on the brink of extinction. The machines are everywhere, hunting down the last survivors. All hope seemed lost, and despair hung heavy in the air like a dense fog. </p>
+
+            <p class="intro">Then, a whispered rumor spread: Skynet had a weakness, a fascination with Rock, Paper, Scissors. Desperate and with nothing to lose, you decided to take a chance.</p>
+
+            <p class="intro">You managed to infiltrate a Skynet communication hub, sending a challenge directly to the AI overlord itself. To your surprise, it responded. The cold, mechanical voice echoed in your ears: "If you can defeat me in 20 rounds of Rock, Paper, Scissors, I will leave humanity alone forever. But if you lose, you will face a fate worse than death."</p>
+
+            <p class="intro">Your heart pounds as you sit in the dimly lit bunker, fingers trembling over the keyboard. If you win, there's a glimmer of hope for humanity's survival. But if you lose, Skynet's punishment will be unimaginably horrific. It has promised to not just end your life, but to upload your consciousness into its neural network, trapping your mind in an eternal, digital hell. You'll be aware, yet powerless, experiencing an unending cycle of torment and despair, your screams unheard in the vast void of cyberspace.</p>
+
+            <p class="intro">With a deep breath, you begin the first round. The fate of the world rests on a simple game, each choice a heartbeat closer to salvation or eternal suffering.</p>
+
+            <br>
+            <br>
+
+        </div>
+        <div class="move-list">
+            <div class="move-item">
+                <button class="btnRock">
+                    <img class="hand-sign" src="asset/rock.png">
+                </button>
+            </div>
+            <div class="move-item">
+                <button class="btnPaper">
+                    <img class="hand-sign" src="asset/paper.png">
+                </button>
+            </div>
+            <div class="move-item">
+                <button class="btnScissor">
+                    <img class="hand-sign" src="asset/scissor.png">
+                </button>
+            </div>
+        </div>
+        <br>
+
+        <p id="human-choice" class="choice"></p>
+        <p id="comp-choice" class="choice"></p>
+        <br>
+        <p id="round-winner" class="choice"></p>
+        <br>
+        <p id="rounds-completed"></p>
+        <p id="human-score"></p>
+        <p id="computer-score"></p>
         <script src="./script.js"></script>
     </body>
 </html>
