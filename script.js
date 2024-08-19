@@ -57,29 +57,29 @@ function playRound(humanInput, computerInput) {
 
     if (humanChoice == "Scissor" && computerChoice == "Paper") {
         humanScore++;
-        return "Human";
+        return "You";
     } else 
     if (humanChoice == "Rock" && computerChoice == "Scissor") {
         humanScore++;
-        return "Human";
+        return "You";
     } else 
     if (humanChoice == "Paper" && computerChoice == "Rock") {
         humanScore++;
-        return "Human";
+        return "You";
     } else 
     if (humanChoice == computerChoice) {
         return "Tie";
     } 
     else {
         computerScore++;
-        return "Computer";
+        return "Skynet";
     }
 }
 
 function displayRoundStats (humanInput, computerInput, roundNum) {
     winner = playRound(humanInput, computerInput);
     humChoice.textContent = `You chose ${humanInput}`;
-    compChoice.textContent = `Computer chose ${computerInput}`;
+    compChoice.textContent = `Skynet chose ${computerInput}`;
     if (winner=="Tie") {
         declareWinner.textContent = "It's a tie!";
     } else {
